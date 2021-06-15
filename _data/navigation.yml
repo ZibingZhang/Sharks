@@ -1,0 +1,17 @@
+main:
+  - title: "About Our Team"
+    url: /about/
+  - title: "Current Season"
+    url: /current-season/
+
+about:
+  - title: "About"
+    url: /about/
+  - title: "Meet the Coaches"
+    url: /coaches/
+  - title: "Frequently Asked Questions"
+    url: /faq/
+  - title: "Parent Volunteers"
+    url: /volunteers/
+  - title: "Summer Suburban Swim League Rules"
+    url: /league-rules/
