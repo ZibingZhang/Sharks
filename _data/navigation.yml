@@ -3,6 +3,8 @@ main:
     url: /about/
   - title: "Current Season"
     url: /current-season/
+  - title: "Announcements"
+    url: /announcements/
 
 about:
   - title: "About Our Team"
