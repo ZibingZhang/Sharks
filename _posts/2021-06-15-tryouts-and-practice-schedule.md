@@ -1,9 +1,5 @@
 ---
 title: "Tryouts and Practice Schedule"
-# permalink: /blog/hlth-5963/chickpea-tuna-salad/
-# sidebar:
-#   title: "Blog Posts"
-#   nav: blog
 categories:
   - email
 ---

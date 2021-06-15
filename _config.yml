@@ -20,12 +20,12 @@ title                    : "Needham Sharks"
 # title_separator          : "-"
 # subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Needham Sharks"
-description              : ""
+description              : "Needham's Summer Recreational Swim Team"
 url                      : "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "ZibingZhang/zibingzhang.github.io"
+repository               : "ZibingZhang/sharks"
 # teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : assets/images/sharks.jpg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 # masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # false (default)
 future                   : true # false (default)
@@ -36,17 +36,34 @@ words_per_minute         : 200
 # Site Author
 author:
   name             : "Needham Sharks"
-  avatar           : /assets/images/sharks.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/sharks.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Needham's Summer Recreational Swim Team"
   location         : "Needham, MA"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:needhamsharks@gmail.com"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/needhamsharks/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/needhamsharks/"
 
 # Scripts
 
 # Site Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:needhamsharks@gmail.com"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/needhamsharks/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/needhamsharks/"
 
 # Reading Files
 include:
@@ -140,7 +157,6 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
 
 # HTML Compression
 # - https://jch.penibelst.de/
