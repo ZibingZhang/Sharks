@@ -32,8 +32,6 @@ future                   : true # false (default)
 words_per_minute         : 200
 # atom_feed:
 #   path                   : # blank (default) uses feed.xml
-search                   : true # false (default)
-search_provider          : lunr # algolia, google
 
 # Site Author
 author:

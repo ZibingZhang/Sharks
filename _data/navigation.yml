@@ -5,7 +5,7 @@ main:
     url: /current-season/
 
 about:
-  - title: "About"
+  - title: "About Our Team"
     url: /about/
   - title: "Meet the Coaches"
     url: /coaches/
@@ -15,3 +15,13 @@ about:
     url: /volunteers/
   - title: "Summer Suburban Swim League Rules"
     url: /league-rules/
+
+current:
+  - title: "Schedule"
+    url: /schedule/
+  - title: "Meet Results"
+    url: /results/
+  - title: "Directions to Meets / Pools"
+    url: /directions/
+  - title: "Proof of Residency"
+    url: /residency/

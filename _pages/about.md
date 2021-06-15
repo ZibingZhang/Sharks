@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Our Team"
 permalink: /about/
 layout: single
 sidebar:

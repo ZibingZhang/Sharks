@@ -5,6 +5,7 @@ layout: single
 sidebar:
   title: ""
   nav: about
+toc: true
 ---
 
 Parent volunteers at swim meets and other team events are crucial to the team's success. A parent from each family must sign up to volunteer for 2 meets, either home or away. The team will compete in ten swim meets over the course of the season. The meets are on Tuesday and Thursday nights for the most part. The more help we have from parents, the better the meet will run and the more fun the swimmers AND their parents will have. If you are unable to assist at the meets, please be sure to communicate with the coaches.
