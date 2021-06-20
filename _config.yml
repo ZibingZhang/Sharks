@@ -21,7 +21,7 @@ title                    : "Needham Sharks"
 # subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Needham Sharks"
 description              : "Needham's Summer Recreational Swim Team"
-url                      : "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+# url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ZibingZhang/sharks"
 # teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -32,6 +32,9 @@ future                   : true # false (default)
 words_per_minute         : 200
 # atom_feed:
 #   path                   : # blank (default) uses feed.xml
+search                   : true # false (default)
+# search_full_content      : # true, false (default)
+search_provider          : lunr # (default), algolia, google
 
 # Site Author
 author:

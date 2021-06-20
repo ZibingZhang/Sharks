@@ -2,6 +2,7 @@
 title: "Tryouts and Practice Schedule"
 categories:
   - email
+fullwidthtable: true
 ---
 
 **Hello Shark Families!**
@@ -44,9 +45,9 @@ If your family is unable to try out for the team on June 21st and June 22nd (if 
 
 After tryouts on Monday 6/21 and Tuesday 6/22, swimmers and families will be notified if they have made the team. Our first team practice will be on Wednesday 6/23. Upon making the team, each swimmer should plan to attend the practice for their age group (listed below) unless notified otherwise. Attached is a copy of the team schedule with practice times. 
 
-| 8 & UNDER | 9 & 10 | 11 & 12 | 13 & 14 | 15 - 18 |
-|-|-|-|-|-|
-| 5:15-6:00 PM | 5:15-6:00 PM | 6:00-6:45 PM | 6:45-7:45 PM | 6:45-7:45 PM |
+ 8 & UNDER | 9 & 10 | 11 & 12 | 13 & 14 | 15 - 18
+:-: | :-: | :-: | :-: | :-:
+5:15-6:00 PM | 5:15-6:00 PM | 6:00-6:45 PM | 6:45-7:45 PM | 6:45-7:45 PM
 
 
 ## 3. Meet Schedule
@@ -61,5 +62,5 @@ If anyone has any questions please do not hesitate to reach out to me or to Need
 
 GO SHARKS
 
-Kate Curtin <br>
+Kate Curtin\
 *Head Coach*

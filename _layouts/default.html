@@ -1,0 +1,98 @@
+---
+---
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.23.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang='{{ site.locale | slice: 0,2 | default: 'en' }}' class='no-js'>
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+
+    {% if page.fullwidthtable == true %}
+      <style>
+        /* full width table */
+        table {
+          width:100%;
+        }
+      
+        table th {
+          width: 1%;
+        }
+      </style>
+    {% endif %}
+
+    {% if page.datatable == true %}
+      <style>
+        .dataTables_wrapper th {
+          width: 1% !important;
+        }
+
+        .dataTables_wrapper label {
+          display: flex;
+        }
+
+        .dataTables_wrapper label select {
+          margin: 0 5px;
+        }
+        
+        .dataTables_wrapper .dataTables_filter {
+          display: flex;
+        }
+      </style>
+
+      <script src='https://code.jquery.com/jquery-3.5.1.js'></script>
+
+      <!-- https://github.com/tomjoht/documentation-theme-jekyll/blob/8b03d709e6149150329dbd76c8084aaeb195e22e/_layouts/default.html -->
+      <!-- Include the standard DataTables bits -->
+      <link rel='stylesheet' type='text/css' href='//cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css'>
+      <script type='text/javascript' charset='utf8' src='//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js' defer></script>
+      <!-- First, this walks through the tables that occur between ...-begin
+          and ...-end and add the 'datatable' class to them.
+          Then it invokes DataTable's standard initializer
+          Credit here: http://www.beardedhacker.com/blog/2015/08/28/add-class-attribute-to-markdown-table/
+        -->
+      <script defer>
+        $(document).ready(function(){
+            $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+            $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('stripe');
+            $('table.display').DataTable( {
+                paging: true,
+                stateSave: true,
+                searching: true,
+            });
+        });
+      </script>
+    {% endif %}
+  </head>
+
+  <body class='layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}'>
+    {% include_cached skip-links.html %}
+    {% include_cached browser-upgrade.html %}
+    {% include_cached masthead.html %}
+
+    <div class='initial-content'>
+      {{ content }}
+    </div>
+
+    {% if site.search == true %}
+      <div class='search-content'>
+        {% include_cached search/search_form.html %}
+      </div>
+    {% endif %}
+
+    <div id='footer' class='page__footer'>
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

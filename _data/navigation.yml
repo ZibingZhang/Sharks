@@ -1,22 +1,8 @@
 main:
-  - title: "About Our Team"
-    url: /about/
   - title: "Current Season"
     url: /current-season/
   - title: "Announcements"
     url: /announcements/
-
-about:
-  - title: "About Our Team"
-    url: /about/
-  - title: "Meet the Coaches"
-    url: /coaches/
-  - title: "Frequently Asked Questions"
-    url: /faq/
-  - title: "Parent Volunteers"
-    url: /volunteers/
-  - title: "Summer Suburban Swim League Rules"
-    url: /league-rules/
 
 current:
   - title: "Schedule"
@@ -25,5 +11,3 @@ current:
     url: /results/
   - title: "Directions to Meets / Pools"
     url: /directions/
-  - title: "Proof of Residency"
-    url: /residency/
